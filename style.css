@@ -43,7 +43,7 @@ padding: 0;
 
 .item:nth-child(1){
     /*flex-grow: 2; */
-    order: 1;
+    order: -1;
 }
 .item:nth-child(8){
     /*flex-grow: 2; */

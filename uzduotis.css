@@ -6,10 +6,33 @@
 header {
 padding: 10px;
 background-color: palevioletred;
+flex: 1;
 
 }
 header ul{
 display: flex;
 list-style: none;
 justify-content: space-around;
+}
+header li {
+    margin-right: 10px;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    
+    width: 100px;
+    
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    
 }
